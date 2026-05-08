@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="kks.css">
+</head>
+<div class="caixa-transparente">
+
+    <h1>Bem-vindo ao site sobre animes e mangas!</h1>
+
+    <button onclick="mensagem()">Clique aqui</button>
+
+    <br><br>
+
+    <hr>
+    <h2>Cadastro do usuário</h2>
+
+    <form action="/enviar-dados" method="POST">
+        <div>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+        </div>
+
+        <br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <hr>
+    <p>Sobre oque falamos nesse site:</p>
+    <ul>
+        <li> 
+            Animes
+        </li>
+        <li>
+            Mangas
+        </li>
+        <li>
+            Mawhuas
+        </li>
+        <li>
+            Sites para assistir
+        </li>
+        <li>
+            Curiosidades
+        </li>
+    </ul>
+
+    <ur>
+        <ul>
+            One piece
+        </ul>
+    </ur>
+
+    <a href="/pagina2">
+        <button>Ir para outra página</button>
+    </a>
+</div>
+    <script>
+        function mensagem() {
+            alert("Você clicou no botão! Uau")
+        }
+    </script>
+</body>
+</html>
