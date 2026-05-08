@@ -1,0 +1,64 @@
+h1 {
+    color: rgb(246, 211, 255);
+    align-items: center;
+    font-size: 500-large;
+    font:800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-display: center;
+    border-color: darkblue;
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
+    font-display: center;
+    font-size: 500-large;
+    font: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-content: center;
+}
+
+
+button {
+    color: rgb(93, 0, 139);
+    border-radius: 65px;
+    text-size-adjust: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    border-top-color: rgba(158, 0, 226, 0.96);
+    border-bottom-color: rgba(188, 0, 226, 0.418);
+}
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fe33199f-fb4e-41ef-957b-8549ff58c459/dcrimia-35425791-862c-4756-bac0-bf831e3c3690.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9mZTMzMTk5Zi1mYjRlLTQxZWYtOTU3Yi04NTQ5ZmY1OGM0NTkvZGNyaW1pYS0zNTQyNTc5MS04NjJjLTQ3NTYtYmFjMC1iZjgzMWUzYzM2OTAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Qb38jjR3wOf8n-ZrzJ1ajn-gVOWYLGXMM29cJLarNmw);
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    text-align: center;
+    font-display: center;
+    align-items: center;
+}
+
+
+.caixa-transparente {
+    /* Cor branca com 20% de opacidade */
+    background-color: rgba(255, 255, 255, 0.166); 
+    
+    /* O efeito de desfoque no que está ATRÁS da caixa */
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(10px); /* Suporte para Safari */
+    
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Uma bordinha fina ajuda no efeito */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    color: white;
+    text-align: center;
+    min-width: 10px;
+    max-width: 600px;
+    line-height: 28px;
+}
