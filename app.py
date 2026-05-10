@@ -4,5 +4,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('cadastro.html')
+    return render_template('Animes_e_tudo.html')
 app.run(debug=True)
