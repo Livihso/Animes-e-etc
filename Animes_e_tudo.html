@@ -6,18 +6,18 @@
     <title>Meu Site</title>
     <link rel="stylesheet" href="kks.css">
 </head>
+
+<body>
 <div class="caixa-transparente">
 
     <h1>Bem-vindo ao site sobre animes e mangas!</h1>
-
-    <button onclick="mensagem()">Clique aqui</button>
 
     <br><br>
 
     <hr>
     <h2>Cadastro do usuário</h2>
 
-    <form action="/enviar-dados" method="POST">
+    <form action="/Manganime" method="POST">
         <div>
             <label for="nome">Nome Completo:</label>
             <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
@@ -39,7 +39,7 @@
 
         <br>
 
-        <button type="submit">Cadastrar</button>
+        <button onclick="mensagem()">Cadastrar</button>
     </form>
 
     <hr>
@@ -62,19 +62,10 @@
         </li>
     </ul>
 
-    <ur>
-        <ul>
-            One piece
-        </ul>
-    </ur>
-
-    <a href="/pagina2">
-        <button>Ir para outra página</button>
-    </a>
 </div>
     <script>
         function mensagem() {
-            alert("Você clicou no botão! Uau")
+            alert("Você está cadastrado!")
         }
     </script>
 </body>
